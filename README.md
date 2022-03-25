@@ -3,7 +3,7 @@
 
 This repository represents using Nvidia TAO with our custom dataset and some TAO possibilities.
 
-All custom data is in the classification_v2 directory.
+All custom data is in the multitask_clf directory.
 
 
 
@@ -11,7 +11,7 @@ All custom data is in the classification_v2 directory.
 # Download Dataset
 
 ```
-cd classification_v2
+cd multitask_clf
 mkdir data
 cd data
 git clone https://github.com/everguard-inc/dataset_ppe -b ppe_multilabel_crops
